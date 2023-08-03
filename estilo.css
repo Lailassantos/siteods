@@ -1,48 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
-    font-size: 100%;
-    background:grey;
-    margin: 5px;
-    line-height: 1,5; 
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    color: white;   
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
     text-align: justify;
-    margin: 0px; 
-    
+    background: grey;
+    margin: 0;
 }
 
-header{
+header {
     background-image: url(imagens/capa.png);
-    height: 1000px;
+    height: 800px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     position: relative;
 }
 
-#cabeçalho{
-    display: inline-flex;
+#cabeçalho {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background-color:white;
+    background-color: white;
     padding: 20px;
     position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.logo{
-    height: 150px;
+.logo {
+    height: 60px;
 }
 
-#cabeçalho nav{
+#cabeçalho nav {
     margin-left: 20px;
     gap: 40px;
     display: flex;
@@ -50,161 +48,161 @@ header{
     border: 10px;
 }
 
-a{
+a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    color:black;
+    font-size: 18px;
+    color: black;
     border: solid black 2px;
     padding: 10px;
 }
 
-#cabeçalho nav a:hover{
-    background-color: brown;    
+#cabeçalho nav a:hover {
+    background-color: brown;
 }
 
-#container{
+#container {
     width: 100%;
-    text-align: center; 
-    top: 100px;
-    padding-top:100px;
+    text-align: center;
+    padding-top: 100px;
 }
 
-h1{
-    font-family: sans-serif;
-    font-size: 80px;
+h1 {
+    font-size: 40px;
     color: white;
-    margin-top: 180px;
+    margin-top: 50px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px black;
 }
 
-#container p{
+#container p {
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 30px;
+    font-size: 18px;
     display: inline-block;
     padding: 16px;
     border-bottom: 2px solid white;
 }
 
-main{
+main {
     width: 70%;
-    margin: 20px auto 0 auto;
+    margin: 5px auto 0 auto;
     color: black;
-    font-size: 35px;
+    font-size: 18px;
 }
 
-#onu, #definicao, #causas, #consequencias, #brasil{
-background-color: antiquewhite;
-padding: 16px;
-margin-top: 32px;
-margin-bottom: 32px;
-line-height: 2;
+#onu,
+#definicao,
+#causas,
+#consequencias,
+#brasil {
+    background-color: antiquewhite;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
 }
 
-#definicao, .onu{
+.onu{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
+
 }
 
-.gif{
-    width: 80%;
+#definicao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
-h2{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 60px;
+.gif {
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
     text-align: center;
-    color: white; 
-    background-color: rgb(167, 58, 58); 
-    padding-top: 10px; 
+    color: white;
+    background-color: rgb(167, 58, 58);
+    padding-top: 10px;
     border-style: double;
     border-width: 10px;
     margin-bottom: 20px;
 }
 
-article{
+article {
     padding: 20px;
 }
 
-.mulhertriste{
-height: 800px;
-margin-top:10px;
-margin-right: 10px;
-margin-left: 10px;
-float: right;
+.mulhertriste {
+    height: 400px;
+    margin: 10px;
+    float: right;
 }
 
-li{
-padding-left: 100px;
-padding-right: 100px;
-list-style-position: inside;
+li {
+    list-style-position: inside;
 }
 
-#sobremim{
-    background-color:rgb(250, 149, 16);
+#sobremim {
+    background-color: rgb(250, 149, 16);
     width: 100%;
-    height: 900px;
+    height: 400px;
     color: black;
     padding: 32px;
     margin-top: 0;
     line-height: 2;
-    }
+}
 
-h3{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 50px;
+h3 {
+    font-size: 30px;
     text-align: center;
-    color: white; 
-    background-color: rgb(167, 58, 58); 
-    margin-top: 0px;
+    color: white;
+    background-color: rgb(167, 58, 58);
     width: 100%;
 }
 
-.sb1{
+.sb1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 100px;
+    gap: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    margin: 50px;
-    }
+    font-size: 16px;
+    margin: 30px;
+}
 
-.fotoeu{
+.fotoeu {
     border-radius: 30px;
 }
 
-footer{
-background-color: gray;
-height: 300px;
-margin-top: 5px;
+footer {
+    background-color: gray;
+    height: 100px;
     width: 100%;
-    height: 300px;
     color: white;
-    padding: 32px;
-    margin-top: 0;
+    padding: 10px;
     line-height: 2;
 }
 
-.rodape{
+.rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
-h4{
-    font-weight: 300px;
+h4 {
+    font-weight: 300;
     text-shadow: 2px 2px 2px black;
 }
 
-.ano{
+.ano {
     text-align: center;
     margin-bottom: 5px;
-    margin-top: 5px;
-
+    margin-top:5px;
 }
