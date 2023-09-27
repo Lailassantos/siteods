@@ -206,3 +206,20 @@ h4 {
     margin-bottom: 5px;
     margin-top:5px;
 }
+
+@media all and (max-width:768px){
+    #container, #onu, .onu, #definicao, #causas, #consequencias, #brasil, #sobremim, footer{
+        display: block;
+        width: 80%; 
+        text-align: center;
+        position: relative;
+        margin-left: 40px;
+        }
+    nav, #cabeçalho{
+        visibility: hidden;
+    }
+    #sobremim{
+        height: max-content;
+    }    
+    }
+
